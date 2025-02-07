@@ -1,0 +1,59 @@
+# Python
+*.pyc
+*.pyo
+*.pyd
+__pycache__/
+
+# Django
+*.log
+*.pot
+*.pyc
+*.db
+*.sqlite3
+*.log
+*.bak
+*.swp
+*.swo
+
+# Environment files
+.env
+.env.*
+
+# VS Code
+.vscode/
+
+# PyCharm
+.idea/
+
+# Docker
+docker-compose.override.yml
+*.env
+
+# Django migrations
+*/migrations/*
+
+# Testing
+coverage/
+nosetests.xml
+test_*.xml
+*.cover
+*.hypothesis/
+
+# Database
+*.sqlite3
+
+# Distribution / packaging
+.Python
+build/
+dist/
+*.egg-info/
+
+# Jupyter Notebooks
+.ipynb_checkpoints
+
+# Pytest
+.cache
+
+# Local virtual environments
+venv/
+env/
