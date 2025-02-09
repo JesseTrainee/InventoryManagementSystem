@@ -50,8 +50,8 @@ At this stage, the focus is on scalability, security, and optimization.
 
 Infrastructure & Deployment:
 
-- Dockerizing the application 
-- Deploying on cloud servers (AWS, DigitalOcean, or Heroku) 
+- Dockerizing the application
+- Deploying on cloud servers (AWS, DigitalOcean, or Heroku)
 - Setting up CI/CD for automated deployments
 - Data backup and recovery setup
 
@@ -61,3 +61,7 @@ Optimizations:
 - Implementing caching for performance improvements (Redis or Memcached)
 - Advanced filtering and pagination for handling large data sets
 - Security enhancements (protection against SQL Injection, CSRF, etc.)
+
+
+## Start application
+run `python manage.py runserver`
