@@ -62,6 +62,8 @@ Optimizations:
 - Advanced filtering and pagination for handling large data sets
 - Security enhancements (protection against SQL Injection, CSRF, etc.)
 
-
 ## Start application
+run `python manage.py makemigrations`
+run `python manage.py migrate`
+run `python manage.py createsuperuser`
 run `python manage.py runserver`
