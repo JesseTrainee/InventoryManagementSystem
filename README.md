@@ -7,7 +7,7 @@ The goal is to deliver a functional system with the minimum necessary features t
 
 Essential Features:
 
-- Product registration (name, code, category, quantity, price)
+- Product registration
 - Stock in/out control
 - Product listing and search
 - Simple dashboard with stock status
@@ -15,11 +15,10 @@ Essential Features:
 
 Technologies & Tools:
 
-- Django (backend)
 - Django Admin for quick product and user management
-- SQLite (lightweight database for initial development)
-- HTML + CSS (or Bootstrap for simple UI design)
-- Django REST Framework (if API integration is needed in the future)
+- SQLite
+- HTML + CSS
+- Django REST Framework
 
 Deliverable:
 
@@ -32,17 +31,18 @@ Once the MVP is validated, the focus shifts to performance, security, and usabil
 Technical Enhancements:
 
 - 🔹 Migrate from SQLite to a more robust database (PostgreSQL, MySQL)
-- 🔹 Improve UI/UX with React or Vue.js for the frontend🔹 Create an API for external system integration (Django REST Framework)
+- 🔹 Improve UI/UX with React or Vue.js for the frontend
+- 🔹 Create an API for external system integration (Django REST Framework)
 
 New Features:
 
-- Supplier and customer management
-- Stock movement reports
--  Low stock alerts
--   Change logs (who modified what and when)
--  Data export (CSV, Excel, PDF)
--   Role-based access control (different permission levels
--   Barcode scanner integration
+- Supplier and customer management;
+- Stock movement reports;
+- Low stock alerts;
+- Change logs (who modified what and when);
+- Data export (CSV, Excel, PDF);
+- Role-based access control (different permission levels);
+- Barcode scanner integration;
 
 3️⃣ Making the System Production-Ready
 
@@ -57,13 +57,14 @@ Infrastructure & Deployment:
 
 Optimizations:
 
-
 - Implementing caching for performance improvements (Redis or Memcached)
 - Advanced filtering and pagination for handling large data sets
 - Security enhancements (protection against SQL Injection, CSRF, etc.)
 
 ## Start application
-run `python manage.py makemigrations`
-run `python manage.py migrate`
-run `python manage.py createsuperuser`
-run `python manage.py runserver`
+**Run**
+- `python3 -m venv venv`
+- `pip install -r requirements.txt`
+- `python manage.py migrate`
+- `python manage.py createsuperuser`
+- `python manage.py runserver`
