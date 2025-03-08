@@ -1,3 +1,7 @@
-from django.shortcuts import render
+from rest_framework import viewsets
+from .serializer import DashboardDataSerializer
+from .models import DashboardData
 
-# Create your views here.
+class DashboardDataViewSet(viewsets.ModelViewSet):
+    queryset = DashboardData.objects.all()
+    serializer_class = DashboardDataSerializer
