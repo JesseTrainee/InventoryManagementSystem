@@ -1,0 +1,58 @@
+[
+    {
+        "name": "Smartband Xiaomi",
+        "code": "852337",
+        "quantity": 34,
+        "price": "22.00",
+        "category_id": 1
+    },
+    {
+        "name": "Smartphone Samsung Galaxy S22",
+        "code": "984562",
+        "quantity": 15,
+        "price": "899.99",
+        "category_id": 4
+    },
+    {
+        "name": "Notebook Dell Inspiron 15",
+        "code": "774239",
+        "quantity": 20,
+        "price": "1200.00",
+        "category_id": 3
+    },
+    {
+        "name": "Fone de Ouvido JBL T500BT",
+        "code": "654872",
+        "quantity": 50,
+        "price": "59.90",
+        "category_id": 5
+    },
+    {
+        "name": "Câmera de Segurança Wi-Fi TP-Link Tapo C200",
+        "code": "123456",
+        "quantity": 12,
+        "price": "70.00",
+        "category_id": 5
+    },
+    {
+        "name": "Mouse Logitech M720 Triathlon",
+        "code": "758963",
+        "quantity": 42,
+        "price": "45.50",
+        "category_id": 2
+    },
+    {
+        "name": "Carregador Portátil Anker PowerCore 10000",
+        "code": "746821",
+        "quantity": 60,
+        "price": "25.99",
+        "category_id": 2
+    },
+    {
+        "name": "Smart TV Samsung 50\" 4K UHD",
+        "code": "854762",
+        "quantity": 10,
+        "price": "650.00",
+        "category_id": 5
+    }
+]

@@ -1,0 +1,22 @@
+[
+    {
+        "title": "Eletrônicos",
+        "description": "Categoria de produtos eletrônicos variados."
+    },
+    {
+        "title": "Acessórios",
+        "description": "Acessórios para dispositivos eletrônicos."
+    },
+    {
+        "title": "Computadores",
+        "description": "Computadores de mesa, notebooks e acessórios."
+    },
+    {
+        "title": "Telefonia",
+        "description": "Celulares, smartphones e acessórios."
+    },
+    {
+        "title": "Áudio e Vídeo",
+        "description": "Produtos de áudio e vídeo como fones, câmeras e smart TVs."
+    }
+]
