@@ -1,3 +1,11 @@
-from django.shortcuts import render
+from rest_framework import viewsets
+from .models import StockMovement, StockTransaction
+from .serializer import StockMovementSerializer, StockTransactionSerializer
 
-# Create your views here.
+class StockMovementViewSet(viewsets.ModelViewSet):
+    queryset = StockMovement.objects.all()
+    serializer_class = StockMovementSerializer
+
+class StockTransactionViewSet(viewsets.ModelViewSet):
+    queryset = StockTransaction.objects.all()
+    serializer_class = StockTransactionSerializer
